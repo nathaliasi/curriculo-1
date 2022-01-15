@@ -1,0 +1,57 @@
+
+    @font-face {
+        font-family: 'prompt';
+        src: url('prompt.ttf') format("truetype");
+    }
+
+    #text-element {
+        font-family: 'prompt', Arial, sans-serif;
+      }
+
+
+body{
+    background-image: url(images/code.jpg);
+}
+
+main{
+    background-color: #93b1c6;
+    border-radius: 10px;
+    box-shadow:5px 5px 15px #2782CF;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    color: white;
+    font-family: 'prompt';
+    text-align: center;
+}
+
+h3{
+    color: white;
+    font-family: 'prompt';
+
+}
+
+h4{
+    color: white;
+    font-family: 'prompt';
+    text-align: justify;
+}
+
+div>p{
+    display: none;
+}
+
+div:hover>p{
+    display:inline;
+    color: white;
+    width: 300px;
+
+}
+
+section{
+    display: flex;
+}
